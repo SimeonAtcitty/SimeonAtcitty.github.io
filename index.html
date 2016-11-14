@@ -2,9 +2,90 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>newPersonalProject</title>
+    <link rel="stylesheet" href="lib/css/animate.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="lib/css/bootstrap.css">
+    <link rel="stylesheet" href="lib/css/myStyle.css">
+
+
   </head>
   <body>
-    <h1>Hello</h1>
+
+    <nav class="navbar navbar-static-top navbar-dark bg-inverse">
+     <a class="navbar-brand" href="#">My Personal Site</a>
+     <ul class="nav navbar-nav">
+       <li class="nav-item ">
+         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="#">Contact</a>
+       </li>
+     </ul>
+   </nav>
+
+   <!-- Main jumbotron for a primary marketing message or call to action -->
+   <div class="jumbotron">
+     <div class="container">
+       <div class="item animated zoomInDown">
+       <h1 class="display-3">My Personal Page</h1>
+       <p>This is my first personal website project in the works. Its not much, but here it is.</p>
+     </div>
+   </div>
+  </div>
+
+   <section id="carousel">
+     <?php require_once("lib/partials/carousel.html");?>
+   </section>
+
+   <br>
+
+     <section id="about">
+       <div class="section-content">
+         <div class="container">
+           <div class="col-md-6">
+             <div class="about-text">
+               <h3>About Me.</h3>
+               <p class="lead">My name is Simeon Atcitty and i am learning
+                  to become a coder in web-development. It's a lot to
+                  accomplish in just 8 weeks.
+               </p>
+               <p>
+                 We have learned the basics in html, css, js and a few other
+                 tools used in the web-developing world.
+               </p>
+
+             </div>
+           </div>
+         </div>
+       </div>
+     </section>
+
+
+    <footer id="footer-main">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <p>
+              &copy; 2016 <a href="#">Simeon Atcitty</a>
+            </p>
+          </div>
+
+          <div class="col-sm-3">
+
+          </div>
+          <div class="col-sm-3">
+            <h6>Thank you.</h6>
+            <p>
+              Well I hope you liked my page, its just the beginning.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="lib/js/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="lib/js/tether.js"></script>
+    <script type="text/javascript" src="lib/js/bootstrap.js"></script>
   </body>
 </html>
